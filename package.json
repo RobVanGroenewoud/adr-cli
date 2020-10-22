@@ -1,0 +1,31 @@
+{
+  "name": "adr-cli",
+  "version": "0.0.0",
+  "description": "A command line tool to manage Architecture Decision Records (ADRs)",
+  "license": "MIT",
+  "bin": {
+    "rad": "cli.js"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "cli.js",
+    "lib"
+  ],
+  "repository": "RobVanGroenewoud/adr-cli",
+  "keywords": [
+    "cli",
+    "adr"
+  ],
+  "author": {
+    "name": "Rob van Groenewoud",
+    "url": "https://www.robvangroenewoud.com/"
+  },
+  "dependencies": {
+    "commander": "^6.1.0"
+  }
+}
