@@ -7,4 +7,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- `init` command to initialize ADR directory
 - `list` command to enumerate ADR files
