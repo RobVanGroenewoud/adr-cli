@@ -26,6 +26,7 @@
     "url": "https://www.robvangroenewoud.com/"
   },
   "dependencies": {
-    "commander": "^6.1.0"
+    "commander": "^6.1.0",
+    "slugify": "^1.4.6"
   }
 }
