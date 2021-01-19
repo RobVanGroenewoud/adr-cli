@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "description": "A command line tool to manage Architecture Decision Records (ADRs)",
   "license": "MIT",
+  "type": "module",
   "bin": {
     "rad": "cli.js"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

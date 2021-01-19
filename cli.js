@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-const program = require("commander");
-const initCommand = require("./lib/commands/init");
-const newCommand = require("./lib/commands/new");
-const list = require("./lib/commands/list");
-const { exit } = require("process");
+import program from "commander";
+import initCommand from "./lib/commands/init.js";
+import newCommand from "./lib/commands/new.js";
+import list from "./lib/commands/list.js";
+import { exit } from "process";
 
 program.name("adr");
 
