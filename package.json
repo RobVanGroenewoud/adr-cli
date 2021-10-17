@@ -5,7 +5,7 @@
   "license": "MIT",
   "type": "module",
   "bin": {
-    "rad": "cli.js"
+    "adr": "cli.js"
   },
   "engines": {
     "node": ">=12"
